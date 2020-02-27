@@ -1,0 +1,17 @@
+<div th:fragment="main">
+    <footer class="main-footer">
+
+        <div class="pull-right hidden-xs">
+            <b th:text="#{footer.version}">Version</b>
+            <span th:text="#{footer.version.number}" />
+        </div>
+
+        <strong>
+            <span th:text="#{footer.copyrights}" />
+            <a href="http://canoas.ifrs.edu.br"> <span th:text="#{ifrs}" /></a>.
+        </strong>
+
+        <span th:text="#{footer.copyrights.pt}" />
+
+    </footer>
+</div>
